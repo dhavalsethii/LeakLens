@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo-crop">
+                <img src="logo.png" alt="LeakLens Logo" class="logo-img">
+            </div>
+            <h1><span style="color: #3e8f3e;">Leak</span>Lens</h1>
+        </div>
+        <nav>
+            <h3><i class="fa-solid fa-house"></i> Home</h3>
+            <h3><i class="fa-solid fa-circle-info"></i> About</h3>
+            <h3><i class="fa-solid fa-envelope"></i> Contact</h3>
+            <h3><i class="fa-solid fa-briefcase"></i> Services</h3>
+        </nav>
+        <button class="login-btn">Log In</button>
+    </header>
+    <main>
+        <div class="hero">
+            <h1><span style="color: #3e8f3e;">Leak</span>Lens.COM</h1>
+            <p>LeakLens is a platform that helps you find leaks in your home</p>
+            <input type="text" id="search-input" placeholder="Enter Company name">
+            <button id="search-btn">🔍 Search</button>
+        </div>
+        <div id="loading" style="display: none; text-align: center; color: white;">Loading data...</div>
+        <div id="breaches-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
